@@ -16,9 +16,20 @@ The following files can be found as of this moment:
   - this file is a momentary database it's only here as a backup in case my thesis assesor advices me to backtrack from certain advancements i've made on my own
 - team_df.csv
   - this file is the "final version" of the teams only database, it's only a temporary file meant to be used to extract a baseline and determine if this database has optimal data for the project
+- team_df_final.csv
+  - the previous iteration of this csv had a minor issue with it's values, it's been fixed, the previous one remains for further testing, though no differences have been found in the model.
+- players_mixed_df.csv
+  - this contains the statistics of all the players participating in the matches we're using, they are "mixed" in the sense that you'll find all of the statistics raw, no correspondance my gameid or anything
+- players_condensed_df.csv
+  - this contains the statistics of all players per match, however it's been condensed into a single entry
+## Use the following DF if you want to go directly to a condensed version with ALL statistics of a match, both general and from each individual participating in it
+- complete_df.csv
+  - this is the final version of our Data Base, it's the one that'll be used as the main data provider for the study, it has all of the information both from individuals the general team statistics combined into one big dataframe
 - lol_df_creation.ipynb
   - this is where all the data pre-processing is being done and where you'll be able to find the code used to create the main database used for this project
 - team_only_prediction.ipynb
   - this file is where you can find the process through which i found the basline for the project and where we determine wether this database is optimal or not
-  
+- entrega3.pdf
+  - this is a file with a breif explanation of how the game works (in spanish)
+
 If you have any questions about the usage of this project you can contact me directly at keshava.t.s.b@gmail.com
